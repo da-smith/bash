@@ -90,7 +90,7 @@ alias nrw='npm run watch'
 alias w="start chrome https://www.google.com/"
 # Utilities
 alias w953="start chrome https://v7player.wostreaming.net/316"
-alias gmail="start chrome https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+alias gmail="start chrome https://mail.google.com"
 alias wmc="start chrome https://login.mailchimp.com/"
 # Passwords
 alias wp="start chrome https://docs.google.com/spreadsheets/d/1D2zTfu56vAVEAOvT4fN7N1NllXSHxOc1UlW3FanTZd0/edit#gid=0"
