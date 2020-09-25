@@ -2,6 +2,7 @@
 # cd c:/Program\ Files/Git/etc/profile.d
 # mv aliases.sh d:/personal/repos/bash/
 # ln -s d:/personal/repos/bash/aliases.sh aliases.sh
+# ls -al aliases.sh
 
 # Variables
 REPOS_PATH='d:/personal/repos/'
@@ -16,6 +17,7 @@ FRONT_END_ASSETS='d:/rcmg/repos/realclear-front-end-assets'
 # ssh
 alias sshs='ssh rcstaging@cms.staging.realclear.com'
 alias sshp='ssh rcprod@cms.prod.realclear.com'
+alias sshbd="ssh bigdog@75.101.131.168"
 
 # Laravel
 alias pa='php artisan'
@@ -46,14 +48,11 @@ alias cdmev="cd $MELODY_PATH_VM"
 alias cdsm="cd $SM_PATH"
 alias cdsmv="cd $SM_PATH_VM"
 alias cdfea="cd $FRONT_END_ASSETS"
- 
-#custom
-alias build="git pull; npm run watch"
 
 # Bash
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
-alias al='code d:/personal/repos/bash/aliases.sh'
+alias al='code c:/Program\ Files/Git/etc/profile.d/aliases.sh'
 alias c="clear"
 
 # Composer
@@ -88,24 +87,52 @@ alias gs='git status'
 alias nrw='npm run watch'
 
 # Websites
-alias um="start chrome $MULTISITE_URL"
-alias wms="start chrome http://cms.staging.realclear.com/"
+alias w="start chrome https://www.google.com/"
+# Utilities
+alias w953="start chrome https://v7player.wostreaming.net/316"
+alias gmail="start chrome https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+alias wmc="start chrome https://login.mailchimp.com/"
+# Passwords
+alias wp="start chrome https://docs.google.com/spreadsheets/d/1D2zTfu56vAVEAOvT4fN7N1NllXSHxOc1UlW3FanTZd0/edit#gid=0"
+# Multisite
 alias wmp="start chrome http://cms.prod.realclear.com/"
+alias wms="start chrome http://cms.staging.realclear.com/"
 alias wm="start chrome multisite.test"
+alias wmprce="start chrome http://cms.prod.realclear.com/sites/3/dashboard"
+# Envoyer
 alias we="start chrome https://envoyer.io/auth/login"
 alias wes="start chrome https://envoyer.io/projects/23890#/recent-deployments"
 alias wep="start chrome https://envoyer.io/projects/36300#/recent-deployments"
-alias wet="start chrome http://energy.test/"
-alias wrce="start chrome https://www.realclearenergy.org/"
+# Politics
 alias wrcp="start chrome https://www.realclearpolitics.com/"
-alias w953="start chrome https://v7player.wostreaming.net/316"
-alias wp="start chrome https://docs.google.com/spreadsheets/d/1D2zTfu56vAVEAOvT4fN7N1NllXSHxOc1UlW3FanTZd0/edit#gid=0"
-alias gmail="start chrome https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
-
+alias wrcpc="start chrome http://www1.realclearpolitics.com/sonic59/adminlogin.php"
+# Energy
+alias wrce="start chrome https://www.realclearenergy.org/"
+alias wrce1="start chrome https://www1.realclearenergy.org/"
+alias wrcec="start chrome http://www1.realclearenergy.org/sonic59/adminlogin.php"
+alias wrcet="start chrome http://energy.test/"
+# Health
+alias wrch="start chrome https://www.realclearhealth.com/"
+alias wrch1="start chrome https://www1.realclearhealth.com/"
+alias wrchc="start chrome http://www1.realclearhealth.com/sonic59/adminlogin.php"
+alias wrcht="start chrome http://health.test/"
+# Policy
+alias wrcpoc="start chrome https://www.realclearpolicy.com/"
+alias wrcpo1="start chrome https://www1.realclearpolicy.com/"
+alias wrcpoc="start chrome http://www1.realclearpolicy.com/sonic59/adminlogin.php"
+alias wrcpt="start chrome http://policy.test/"
+# Investigations
+alias wrci="start chrome https://www.realclearinvestigations.com/"
+alias wrci1="start chrome https://www.realclearinvestigations.com/"
+alias wrcic="start chrome http://www1.realclearinvestigations.com/sonic59/adminlogin.php"
+alias wrcit="start chrome http://investigations.test/"
 # Windows
 alias hosts='code C:/Windows/System32/drivers/etc/hosts'
 alias s="start slack"
 alias gh="C:/Users/DSmith/AppData/Local/GitHubDesktop/GitHubDesktop.exe"
+alias dg="C:/Program\ Files/JetBrains/DataGrip\ 2020.1.1/bin/datagrip64.exe"
+alias ws="C:/Program\ Files/JetBrains/WebStorm\ 2020.1/bin/webstorm64.exe"
+alias ps="C:/Program\ Files/JetBrains/PhpStorm\ 2019.2/bin/phpstorm64.exe"
 
 case "$TERM" in
 xterm*)
