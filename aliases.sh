@@ -121,11 +121,25 @@ alias wrcpoc="start chrome https://www.realclearpolicy.com/"
 alias wrcpo1="start chrome https://www1.realclearpolicy.com/"
 alias wrcpoc="start chrome http://www1.realclearpolicy.com/sonic59/adminlogin.php"
 alias wrcpt="start chrome http://policy.test/"
+# Science
+alias wrcscc="start chrome https://www.realclearscience.com/"
+alias wrcsc1="start chrome https://www1.realclearscience.com/"
+alias wrcscc="start chrome http://www1.realclearscience.com/sonic59/adminlogin.php"
+alias wrcsct="start chrome http://science.test/"
 # Investigations
 alias wrci="start chrome https://www.realclearinvestigations.com/"
 alias wrci1="start chrome https://www.realclearinvestigations.com/"
 alias wrcic="start chrome http://www1.realclearinvestigations.com/sonic59/adminlogin.php"
 alias wrcit="start chrome http://investigations.test/"
+# Foundaitons
+alias wrcf="start chrome https://www.realclearfoundation.org/"
+alias wrcft="start chrome http://investigations.test/"
+# Utilities
+alias wvalidate:rss="start chrome https://validator.w3.org/feed"
+alias wvalidate:html="start chrome https://validator.w3.org"
+alias whd="start chrome https://realclearhelp.teamwork.com/desk/inboxes/26005-RC-Tech-Tickets/mine"
+alias wch="start chrome https://app.clubhouse.io/realclear/stories/space/141/owned-by-me"
+
 # Windows
 alias hosts='code C:/Windows/System32/drivers/etc/hosts'
 alias s="start slack"
