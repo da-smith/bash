@@ -139,6 +139,7 @@ alias wvalidate:rss="start chrome https://validator.w3.org/feed"
 alias wvalidate:html="start chrome https://validator.w3.org"
 alias whd="start chrome https://realclearhelp.teamwork.com/desk/inboxes/26005-RC-Tech-Tickets/mine"
 alias wch="start chrome https://app.clubhouse.io/realclear/stories/space/141/owned-by-me"
+alias wgh="start chrome https://github.com/"
 
 # Windows
 alias hosts='code C:/Windows/System32/drivers/etc/hosts'
